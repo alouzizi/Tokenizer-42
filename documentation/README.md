@@ -10,7 +10,7 @@ Jmale42 is an ERC20 token implemented on the Ethereum blockchain and deployed to
 - **Symbol**: JML42
 - **Decimals**: 18
 - **Total Supply**: 70,000,000 JML42
-- **Contract Address**: [contract address]
+- **Contract Address**: [0x58a5C5f409E32a702E6710FA3bF88961e6fAfa64]
 - **Network**: Moonbase Alpha (Moonbeam Testnet)
 - **Standard**: ERC20
 
@@ -21,6 +21,14 @@ Jmale42 is an ERC20 token implemented on the Ethereum blockchain and deployed to
 - `transferFrom(address from, address to, uint256 amount)`: Transfer tokens on behalf of another address
 - `balanceOf(address account)`: Check the token balance of an address
 - `allowance(address owner, address spender)`: Check how many tokens a spender is allowed to use
+
+### Token Metadata
+
+- **Name**: Retrieve with `name()`.
+- **Symbol**: Retrieve with `symbol()`.
+- **Decimals**: Check with `decimals()`.
+- **Total Supply**: Get with `totalSupply()`.
+
 ## Features
 
 - **Standard ERC20 Functions**: Transfer, approve, and check balances
